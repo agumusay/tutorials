@@ -1,0 +1,25 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "Node Cli for setting up a project frame",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ali San Gumusay",
+  "license": "ISC",
+  "bin": {
+    "boilerplate": "./cli.js"
+  },
+  "dependencies": {
+    "cfonts": "^2.4.8",
+    "chalk": "^3.0.0",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "ejs": "^3.0.1",
+    "fs-extra": "^8.1.0",
+    "inquirer": "^7.0.3",
+    "simple-git": "^1.129.0"
+  }
+}
